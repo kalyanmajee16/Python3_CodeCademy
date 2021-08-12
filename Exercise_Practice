@@ -1,0 +1,1065 @@
+
+PYTHON 3 -–	CODECADEMY
+----------------------------------
+
+LEARN PYTHON 3
+------------------------------
+my_name = "Kalyan"
+print("Hello and welcome " + my_name + "!")
+
+OUTPUT
+----------
+Hello and welcome Kalyan!
+
+# from Mary Shelley's Frankenstein
+print("Hello World!")
+
+OUTPUT
+----------
+Hello World!
+
+# We've defined the variable "meal" here to the name of the food we ate for breakfast!
+meal = "An english muffin"
+
+# Printing out breakfast
+print("Breakfast:")
+print(meal)
+
+# Now update meal to be lunch!
+meal = "Burger"
+
+# Printing out lunch
+print("Lunch:")
+print(meal)
+
+# Now update "meal" to be dinner
+meal ="Rice"
+# Printing out dinner
+print("Dinner:")
+print(meal)
+
+OUTPUT
+----------
+Breakfast:
+An english muffin
+Lunch:
+Burger
+Dinner:
+Rice
+
+print('This message has mismatched quote marks!')
+print('Abracadabra')
+
+This message has mismatched quote marks!
+Abracadabra
+
+# Define the release and runtime integer variables below:
+release_year =2021
+runtime = 2
+
+# Define the rating_out_of_10 float variable below: 
+rating_out_of_10 =7.5
+
+quilt_width = 8
+quilt_length = 12
+print(quilt_width * quilt_length)
+
+quilt_width = 8
+quilt_length = 8
+print(quilt_width * quilt_length)
+
+OUTPUT
+----------
+96
+64
+
+# Calculation of squares for:
+# 6x6 quilt
+print(6 * 2)
+# 7x7 quilt
+print(7 * 2)
+# 8x8 quilt
+print(8 * 2)
+# How many squares for 6 people to have 6 quilts each that are 6x6?
+print(6 ** 4)
+
+OUTPUT
+----------
+12
+14
+16
+1296
+
+string1 = "The wind, "
+string2 = "which had hitherto carried us along with amazing rapidity, "
+string3 = "sank at sunset to a light breeze; "
+string4 = "the soft air just ruffled the water and "
+string5 = "caused a pleasant motion among the trees as we approached the shore, "
+string6 = "from which it wafted the most delightful scent of flowers and hay."
+
+# Define message below:
+message = string1+string2+string3+string4+string5+string6
+
+print(message)
+
+OUTPUT
+----------
+The wind, which had hitherto carried us along with amazing rapidity, sank at sunset to a light breeze; the soft air just ruffled the water and caused a pleasant motion among the trees as we approached the shore, from which it wafted the most delightful scent of flowers and hay.
+
+total_price = 0
+
+new_sneakers = 50.00
+
+total_price += new_sneakers
+
+nice_sweater = 39.00
+total_price +=nice_sweater
+fun_books = 20.00
+# Update total_price here:
+total_price +=fun_books
+print("The total price is", total_price)
+
+OUTPUT
+----------
+The total price is 109.0
+
+
+# Assign the string here
+to_you ="""
+Stranger, if you passing meet me and desire to speak to me, why
+  should you not speak to me?
+And why should I not speak to you?
+"""
+print(to_you)
+
+OUTPUT
+----------
+Stranger, if you passing meet me and desire to speak to me, why
+  should you not speak to me?
+And why should I not speak to you?
+
+#Kalyan Majee
+#I am very humorous person
+
+print("K   K   M   M")
+print("K  K    MM MM")
+print("K K     MM MM")
+print("KK      M M M")
+print("K K     M   M")
+print("K  K    M   M")
+print("K   K   M   M")
+
+OUTPUT
+----------
+K   K   M   M
+K  K    MM MM
+K K     MM MM
+KK      M M M
+K K     M   M
+K  K    M   M
+K   K   M   M
+
+
+lovely_loveseat_description ="""
+Lovely Loveseat. Tufted polyester blend on wood. 32 inches high x 40 inches wide x 30 inches deep. Red or white.
+"""
+lovely_loveseat_price = 254.00
+
+stylish_settee_description ="""
+Stylish Settee. Faux leather on birch. 29.50 inches high x 54.75 inches wide x 28 inches deep. Black.
+"""
+stylish_settee_price = 180.50
+
+luxurious_lamp_description ="""
+Luxurious Lamp. Glass and iron. 36 inches tall. Brown with cream shade.
+"""
+
+luxurious_lamp_price = 52.15
+sales_tax = .088
+
+customer_one_total = 0
+customer_one_itemization =""
+
+customer_one_total += lovely_loveseat_price
+customer_one_itemization += lovely_loveseat_description
+
+customer_one_total +=luxurious_lamp_price
+customer_one_itemization += luxurious_lamp_description
+
+customer_one_tax = customer_one_total * sales_tax
+
+customer_one_total += customer_one_tax
+
+print("Customer One Items:")
+print(customer_one_itemization)
+print("Customer One Total:") 
+print(customer_one_total)
+
+OUTPUT
+----------
+Customer One Items:
+
+Lovely Loveseat. Tufted polyester blend on wood. 32 inches high x 40 inches wide x 30 inches deep. Red or white.
+
+Luxurious Lamp. Glass and iron. 36 inches tall. Brown with cream shade.
+
+Customer One Total:
+333.09119999999996
+
+
+my_baby_bool = "true"
+print(type(my_baby_bool))
+my_baby_bool_two = True
+print(type(my_baby_bool_two))
+print(my_baby_bool_two)
+
+OUTPUT
+----------
+<class 'str'>
+<class 'bool'>
+True
+
+# Enter a user name here, make sure to make it a string
+user_name = "Dave"
+
+if user_name == "Dave":
+  print("Get off my computer Dave!")
+
+Get off my computer Dave!
+
+# Enter a user name here, make sure to make it a string
+user_name = "angela_catlady_87"
+
+if user_name == "Dave":
+  print("Get off my computer Dave!")
+if user_name == "angela_catlady_87":
+  print("I know it is you, Dave! Go away!")
+
+I know it is you, Dave! Go away!
+
+x = 20
+y = 20
+
+# Write the first if statement here:
+if x==y:
+  print("These numbers are the same")
+
+credits = 120
+
+# Write the second if statement here:
+if credits>=120:
+  print("You have enough credits to graduate!")
+
+OUTPUT
+----------
+These numbers are the same
+You have enough credits to graduate!
+
+statement_one = (2 + 2 + 2 >= 6) and (-1 * -1 < 0)
+print(statement_one)
+statement_two = (4 * 2 <= 8) and (7 - 1 == 6)
+print(statement_two)
+credits = 120
+gpa = 3.4
+
+if credits >= 120 and gpa>=2.0: 
+  print("You meet the requirements to graduate!")
+
+OUTPUT
+----------
+False
+True
+You meet the requirements to graduate!
+
+statement_one = (2 - 1 > 3) or (-5 * 2 == -10)
+print(statement_one)
+statement_two = (9 + 5 <= 15) or (7 != 4 + 3)
+print(statement_two)
+credits = 118
+gpa = 2.0
+if credits>=120 or gpa>=2.0:
+  print("You have met at least one of the requirements.")
+ 
+OUTPUT
+----------
+True
+True
+You have met at least one of the requirements.
+
+statement_one = not (4 + 5 <= 9)
+print(statement_one)
+statement_two = not (8 * 2) != 20 - 4
+print(statement_two)
+
+OUTPUT
+----------
+credits = 120
+gpa = 1.8
+
+if not credits>=120:
+  print("You do not have enough credits to graduate.")
+if not gpa>=2.0:
+    print("Your GPA is not high enough to graduate.")
+if not credits>=120 and not gpa>=2.0:
+  print("You do not meet either requirement to graduate!")
+
+OUTPUT
+----------
+False
+True
+Your GPA is not high enough to graduate.
+
+credits = 120
+gpa = 1.9
+
+if (credits >= 120) and (gpa >= 2.0):
+  print("You meet the requirements to graduate!")
+else:
+  print("You do not meet the requirements to graduate.")
+
+OUTPUT
+----------
+You do not meet the requirements to graduate.
+
+grade = 86
+
+if grade >= 90:
+  print("A")
+elif grade >= 80:
+  print("B")
+elif grade >= 70:
+  print("C")
+elif grade >= 60:
+  print("D")
+else:
+  print("F")
+
+OUTPUT
+----------
+B
+
+print("I have information for the following planets:\n")
+
+print("   1. Venus   2. Mars    3. Jupiter")
+print("   4. Saturn  5. Uranus  6. Neptune\n")
+ 
+weight = 185
+planet = 3
+
+# Write an if statement below:
+if planet == 1:
+  print(weight * 0.91)
+elif planet == 2:
+  print(weight * 0.38)
+elif planet == 3:
+  print(weight * 2.34)
+elif planet == 4:
+  print(weight * 1.06)
+elif planet == 5:
+  print(weight * 0.92)
+elif planet == 6:
+  print(weight * 1.19)
+else:
+  print("Choose the correct option")
+
+OUTPUT
+----------
+I have information for the following planets:
+
+   1. Venus   2. Mars    3. Jupiter
+   4. Saturn  5. Uranus  6. Neptune
+
+432.9
+
+import random
+
+name = "Joe"
+question ="Will I win the lottery?"
+answer =""
+random_number = random.randint(1,9)
+
+print(random_number)
+
+if random_number == 1:
+ answer = "Yes - definitely."
+elif random_number == 2:
+ answer = "It is decidedly so."
+elif random_number == 3:
+ answer = "Without a doubt."
+elif random_number == 4:
+ answer = "Reply hazy, try again."
+elif random_number == 5:
+ answer = "Ask again later."
+elif random_number == 6:
+ answer = "Better not tell you now."
+elif random_number == 7:
+ answer = "My sources say no."
+elif random_number == 8:
+ answer ="Outlook not so good."
+elif random_number == 9:
+ answer ="Very doubtful."
+else:
+ answer = "Error"
+print(name +" asks: "+ question)
+print("Magic 8-Ball's answer: "+answer)
+
+OUTPUT
+----------
+6
+Joe asks: Will I win the lottery?
+Magic 8-Ball's answer: Better not tell you now.
+
+9
+Joe asks: Will I win the lottery?
+Magic 8-Ball's answer: Very doubtful.
+
+weight = 4
+cost = 0
+#Ground Shipping
+if weight <= 2:
+ cost = 1.50
+
+elif weight <= 2:
+ cost_ground = weight * 1.50 + 20
+elif weight <= 6:
+ cost_ground = weight * 3.00 + 20
+elif weight <= 10:
+ cost_ground = weight * 4.00 + 20
+else:
+ cost_ground = weight * 4.75 + 20
+
+print("Ground Shipping $", cost_ground)
+
+if weight <= 2:
+  cost_drone = weight * 4.5
+elif weight <= 6:
+  cost_drone = weight * 9.00
+elif weight <= 10:
+  cost_drone = weight * 12.00
+else:
+  cost_drone = weight * 14.25
+
+print("Drone Shipping: $", cost_drone)
+
+OUTPUT
+----------
+Ground Shipping $ 32.0
+Drone Shipping: $ 36.0
+
+# Fortune Cookie Program 🥠
+
+import random
+
+fortune = random.randint(0, 4)
+
+if fortune == 0:
+  print("May you one day be carbon neutral")
+elif fortune == 1:  
+  print("You have rice in your teeth")
+elif fortune == 2:
+  print("No snowflake feels responsible for an avalanche")
+elif fortune == 3:
+  print("You can only connect the dots looking backwards")
+elif fortune == 4:
+  print("The fortune you seek is in another cookie")
+
+May you one day be carbon neutral
+
+# Who Wants To Be A Millionaire 💰 
+
+score = 0
+
+option1 = 'Fresca'
+option2 = 'V8'
+option3 =  "Burger"
+option4 = 'A&W'
+  
+print("For ordering his favorite beverages on demand, LBJ had four buttons installed in the Oval Office labeled 'Coffee', 'Tea', 'Coke', and what?\n")
+
+print("A.", option1)
+print("B.", option2)
+print("C.", option3)
+print("D.", option4)
+  
+answer = 'a'
+
+if answer == 'A' or answer == 'a': 
+  score += 100
+  print("\nCorrect!")
+else:
+  print("\nNope, sorry!")
+
+
+For ordering his favorite beverages on demand, LBJ had four buttons installed in the Oval Office labeled 'Coffee', 'Tea', 'Coke', and what?
+
+A. Fresca
+B. V8
+C. Burger
+D. A&W
+
+OUTPUT
+----------
+Correct!
+
+# Area Calculator 📏
+
+import math
+
+base = 20
+height = 30
+area = base * height / 2
+
+print("The triangle area is", area)
+
+length = 2
+width = 12
+area = length * width
+
+print("The rectangle area is" ,area)
+    
+radius = 36
+area = math.pi * radius * radius
+    
+print("The circle area is", area)
+
+OUTPUT
+----------
+The triangle area is 300.0
+The rectangle area is 24
+The circle area is 4071.5040790523717
+
+heights = [61, 70, 67, 64, 65]
+
+broken_heights = [65, 71, 59, 62]
+
+ints_and_strings = [1, 2, 3, "four", "five", "six"]
+
+sam_height_and_testscore  = ["Sam", 67, 85.5, True]
+
+my_empty_list =[]
+
+example_list = [1, 2, 3, 4]
+
+#Using Append
+example_list.append(5)
+print(example_list)
+
+#Using Remove
+example_list.remove(5)
+print(example_list)
+
+OUTPUT
+----------
+[1, 2, 3, 4, 5]
+[1, 2, 3, 4]
+
+orders = ["daisies", "periwinkle"]
+print(orders)
+
+orders.append("tulips")
+print(orders)
+
+orders.append("roses")
+print(orders)
+
+['daisies', 'periwinkle']
+['daisies', 'periwinkle', 'tulips']
+['daisies', 'periwinkle', 'tulips', 'roses']
+
+orders = ["daisy", "buttercup", "snapdragon", "gardenia", "lily"]
+print(orders)
+# Create new orders here:
+new_orders = ["lilac", "iris"]
+print(new_orders)
+orders_combined = orders + new_orders
+print(orders_combined)
+
+broken_prices = [5, 3, 4, 5, 4] + [4]
+print(broken_prices)
+
+OUTPUT
+----------
+['daisy', 'buttercup', 'snapdragon', 'gardenia', 'lily']
+['lilac', 'iris']
+['daisy', 'buttercup', 'snapdragon', 'gardenia', 'lily', 'lilac', 'iris']
+[5, 3, 4, 5, 4, 4]
+
+employees = ["Michael", "Dwight", "Jim", "Pam", "Ryan", "Andy", "Robert"]
+employee_four = employees[3]
+print(employee_four)
+
+print(employees[6])
+
+OUTPUT
+----------
+Pam
+Robert
+
+shopping_list = ["eggs", "butter", "milk", "cucumbers", "juice", "cereal"]
+
+last_element = shopping_list[-1]
+print(last_element)
+
+index5_element = shopping_list [5]
+print(index5_element)
+
+OUTPUT
+----------
+cereal
+cereal
+
+# Your code below:
+garden_waitlist = ["Jiho", "Adam", "Sonny", "Alisha"]
+print(garden_waitlist)
+garden_waitlist[1] ="Calla"
+print(garden_waitlist)
+garden_waitlist[-1] ="Alex"
+print(garden_waitlist)
+
+OUTPUT
+----------
+['Jiho', 'Adam', 'Sonny', 'Alisha']
+['Jiho', 'Calla', 'Sonny', 'Alisha']
+['Jiho', 'Calla', 'Sonny', 'Alex']
+
+# Your code below: 
+order_list =["Celery", "Orange Juice", "Orange", "Flatbread"]
+print(order_list)
+order_list.remove("Flatbread")
+print(order_list)
+
+new_store_order_list = ["Orange", "Apple", "Mango", "Broccoli", "Mango"]
+print(new_store_order_list)
+
+new_store_order_list.remove("Mango")
+print(new_store_order_list )
+new_store_order_list.remove("Onions")
+['Celery', 'Orange Juice', 'Orange', 'Flatbread']
+['Celery', 'Orange Juice', 'Orange']
+['Orange', 'Apple', 'Mango', 'Broccoli', 'Mango']
+['Orange', 'Apple', 'Broccoli', 'Mango']
+Traceback (most recent call last):
+  File "script.py", line 12, in <module>
+    new_store_order_list.remove("Onions")
+ValueError: list.remove(x): x not in list
+
+heights = [["Jenny", 61], ["Alexus", 70], ["Sam", 67], ["Grace", 64], ["Vik", 68]]
+print(heights)
+
+ages = [["Aaron" , 15],["Dhruti" , 16]]
+print(ages)
+
+[['Jenny', 61], ['Alexus', 70], ['Sam', 67], ['Grace', 64], ['Vik', 68]]
+[['Aaron', 15], ['Dhruti', 16]]
+
+
+#Your code below:
+class_name_test =[["Jenny", 90], ["Alexus", 85.5], ["Sam",  83], ["Ellie",  101.5]]
+print(class_name_test)
+
+sams_score = class_name_test[2][1]
+print(sams_score)
+
+ellies_score = class_name_test[-1][-1]
+print(ellies_score)
+
+OUTPUT
+----------
+[['Jenny', 90], ['Alexus', 85.5], ['Sam', 83], ['Ellie', 101.5]]
+83
+101.5
+
+#Your code below:
+incoming_class  =[ [ "Kenny", "American", 9],
+[ "Tanya" ,"Russian", 9],
+[ "Madison" ,"Indian",  7] ]
+print(incoming_class)
+
+incoming_class[2][2] = 8
+print(incoming_class)
+
+incoming_class[-3][-3] = "Ken"
+print(incoming_class)
+
+[['Kenny', 'American', 9], ['Tanya', 'Russian', 9], ['Madison', 'Indian', 7]]
+[['Kenny', 'American', 9], ['Tanya', 'Russian', 9], ['Madison', 'Indian', 8]]
+[['Ken', 'American', 9], ['Tanya', 'Russian', 9], ['Madison', 'Indian', 8]]
+
+# Your code below: 
+first_names = ["Ainsley", "Ben", "Chani",
+"Depak"]
+print(first_names)
+
+preferred_size =["Small", "Large", "Medium"]
+print(preferred_size)
+
+preferred_size.append("Medium")
+print(preferred_size)
+
+customer_data =[["Ainsley","Small",True],
+["Ben","Large", False],
+["Chani","Medium",True],
+["Depak","Medium",False]]
+print(customer_data)
+
+OUTPUT
+----------
+['Ainsley', 'Ben', 'Chani', 'Depak']
+['Small', 'Large', 'Medium']
+['Small', 'Large', 'Medium', 'Medium']
+[['Ainsley', 'Small', True], ['Ben', 'Large', False], ['Chani', 'Medium', True], ['Depak', 'Medium', False]]
+
+# Your code below: 
+first_names = ["Ainsley", "Ben", "Chani",
+"Depak"]
+print(first_names)
+
+preferred_size =["Small", "Large", "Medium"]
+print(preferred_size)
+
+preferred_size.append("Medium")
+print(preferred_size)
+
+customer_data =[["Ainsley","Small",True],
+["Ben","Large", False],
+["Chani","Medium",True],
+["Depak","Medium",False]]
+print(customer_data)
+
+customer_data[2][2] = False
+print(customer_data)
+
+customer_data[1].remove(False)
+print(customer_data)
+
+customer_data_final = customer_data + [["Amit", "Large", True], ["Karim", "X-Large", False]]
+print(customer_data_final )
+
+OUTPUT
+----------
+['Ainsley', 'Ben', 'Chani', 'Depak']
+['Small', 'Large', 'Medium']
+['Small', 'Large', 'Medium', 'Medium']
+[['Ainsley', 'Small', True], ['Ben', 'Large', False], ['Chani', 'Medium', True], ['Depak', 'Medium', False]]
+[['Ainsley', 'Small', True], ['Ben', 'Large', False], ['Chani', 'Medium', False], ['Depak', 'Medium', False]]
+[['Ainsley', 'Small', True], ['Ben', 'Large'], ['Chani', 'Medium', False], ['Depak', 'Medium', False]]
+[['Ainsley', 'Small', True], ['Ben', 'Large'], ['Chani', 'Medium', False], ['Depak', 'Medium', False], ['Amit', 'Large', True], ['Karim', 'X-Large', False]]
+
+last_semester_gradebook = [["politics", 80], ["latin", 96], ["dance", 97], ["architecture", 65]]
+
+# Your code below: 
+subjects =["physics","calculus","poetry","history"]
+print(subjects)
+
+grades =[98,97,85,88]
+print(grades)
+
+gradebook = [[subjects[0],grades[0]], 
+[subjects[1],grades[1]], 
+[subjects[2],grades[2]], 
+[subjects[3],grades[3]]]
+
+print(gradebook)
+
+gradebook.append(["computer science",100])
+print(gradebook)
+
+gradebook.append(["visual arts",93])
+print(gradebook)
+
+gradebook[5][1] = 98
+print(gradebook)
+
+gradebook[2].remove(85)
+print(gradebook)
+
+gradebook[2].append("Pass")
+print(gradebook)
+
+full_gradebook = last_semester_gradebook + gradebook 
+print(full_gradebook)
+
+OUTPUT
+----------
+['physics', 'calculus', 'poetry', 'history']
+[98, 97, 85, 88]
+[['physics', 98], ['calculus', 97], ['poetry', 85], ['history', 88]]
+[['physics', 98], ['calculus', 97], ['poetry', 85], ['history', 88], ['computer science', 100]]
+[['physics', 98], ['calculus', 97], ['poetry', 85], ['history', 88], ['computer science', 100], ['visual arts', 93]]
+[['physics', 98], ['calculus', 97], ['poetry', 85], ['history', 88], ['computer science', 100], ['visual arts', 98]]
+[['physics', 98], ['calculus', 97], ['poetry'], ['history', 88], ['computer science', 100], ['visual arts', 98]]
+[['physics', 98], ['calculus', 97], ['poetry', 'Pass'], ['history', 88], ['computer science', 100], ['visual arts', 98]]
+[['politics', 80], ['latin', 96], ['dance', 97], ['architecture', 65], ['physics', 98], ['calculus', 97], ['poetry', 'Pass'], ['history', 88], ['computer science', 100], ['visual arts', 98]]
+
+
+front_display_list = ["Mango", "Filet Mignon", "Chocolate Milk"]
+print(front_display_list)
+
+# Your code below: 
+front_display_list.insert(0,"Pineapple")
+print(front_display_list)
+
+OUTPUT
+----------
+['Mango', 'Filet Mignon', 'Chocolate Milk']
+['Pineapple', 'Mango', 'Filet Mignon', 'Chocolate Milk']
+
+data_science_topics = ["Machine Learning", "SQL", "Pandas", "Algorithms", "Statistics", "Python 3"]
+print(data_science_topics)
+
+# Your code below: 
+
+data_science_topics.pop()
+print(data_science_topics)
+
+data_science_topics.pop(-2)
+print(data_science_topics)
+
+OUTPUT
+----------
+['Machine Learning', 'SQL', 'Pandas', 'Algorithms', 'Statistics', 'Python 3']
+['Machine Learning', 'SQL', 'Pandas', 'Algorithms', 'Statistics']
+['Machine Learning', 'SQL', 'Pandas', 'Statistics']
+
+# Your code below: 
+
+number_list = range(9)
+print(list(number_list))
+
+zero_to_seven  = range(8)
+print(list(zero_to_seven ))
+
+OUTPUT
+----------
+[0, 1, 2, 3, 4, 5, 6, 7, 8]
+[0, 1, 2, 3, 4, 5, 6, 7]
+
+# Your code below: 
+
+range_five_three = range(5, 15, 3)
+print(range_five_three)
+
+range_diff_five = range(0,40,5) 
+print(range_diff_five)
+
+range(5, 15, 3)
+range(0, 40, 5)
+
+long_list = [1, 5, 6, 7, -23, 69.5, True, "very", "long", "list", "that", "keeps", "going.", "Let's", "practice", "getting", "the", "length"]
+
+range_list = range(2, 3000, 10)
+
+# Your code below: 
+long_list_len = len(long_list)
+print(long_list_len)
+
+range_list_length = len(range_list)
+print(range_list_length)
+
+range_list = range(2, 3000, 100)
+print(range_list_length)
+
+OUTPUT
+----------
+18
+300
+300
+
+suitcase = ["shirt", "shirt", "pants", "pants", "pajamas", "books"]
+
+beginning = suitcase[0:4]
+print(beginning)
+# Your code below: 
+beginning = suitcase[0:2]
+print(beginning)
+
+middle =  suitcase[2:4]
+print(middle)
+
+OUTPUT
+----------
+['shirt', 'shirt', 'pants', 'pants']
+['shirt', 'shirt']
+['pants', 'pants']
+
+
+
+suitcase = ["shirt", "shirt", "pants", "pants", "pajamas", "books"]
+
+# Your code below: 
+last_two_elements = suitcase[-2:]
+print(last_two_elements)
+
+slice_off_last_three =suitcase[:-3]
+print(slice_off_last_three)
+
+OUTPUT
+----------
+['pajamas', 'books']
+['shirt', 'shirt', 'pants']
+
+votes = ["Jake", "Jake", "Laurie", "Laurie", "Laurie", "Jake", "Jake", "Jake", "Laurie", "Cassie", "Cassie", "Jake", "Jake", "Cassie", "Laurie", "Cassie", "Jake", "Jake", "Cassie", "Laurie"]
+
+# Your code below: 
+jake_votes = votes.count("Jake")
+print(jake_votes)
+
+OUTPUT
+----------
+9
+
+# Checkpoint 1 & 2
+addresses = ["221 B Baker St.", "42 Wallaby Way", "12 Grimmauld Place", "742 Evergreen Terrace", "1600 Pennsylvania Ave", "10 Downing St."]
+addresses.sort()
+print(addresses)
+
+# Checkpoint 3
+names = ["Ron", "Hermione", "Harry", "Albus", "Sirius"]
+names.sort()
+print(names)
+
+# Checkpoint 4 & 5
+cities = ["London", "Paris", "Rome", "Los Angeles", "New York"]
+sorted_cities = cities.sort(reverse=True)
+print(cities)
+
+OUTPUT
+----------
+['10 Downing St.', '12 Grimmauld Place', '1600 Pennsylvania Ave', '221 B Baker St.', '42 Wallaby Way', '742 Evergreen Terrace']
+['Albus', 'Harry', 'Hermione', 'Ron', 'Sirius']
+['Rome', 'Paris', 'New York', 'Los Angeles', 'London']
+
+games = ["Portal", "Minecraft", "Pacman", "Tetris", "The Sims", "Pokemon"]
+
+# Your code below:
+games_sorted =sorted(games)
+print(games)
+print(games_sorted)
+
+OUTPUT
+----------
+['Portal', 'Minecraft', 'Pacman', 'Tetris', 'The Sims', 'Pokemon']
+['Minecraft', 'Pacman', 'Pokemon', 'Portal', 'Tetris', 'The Sims']
+
+inventory = ["twin bed", "twin bed", "headboard", "queen bed", "king bed", "dresser", "dresser", "table", "table", "nightstand", "nightstand", "king bed", "king bed", "twin bed", "twin bed", "sheets", "sheets", "pillow", "pillow"]
+
+inventory_len = len(inventory)
+print(inventory_len)
+
+first = inventory[0]
+print(first)
+
+last = inventory[-1]
+print(last)
+
+inventory_2_6= inventory[2:6]
+print(inventory_2_6)
+
+first_3 = inventory[:3]
+print(first_3)
+
+twin_beds = inventory.count("twin bed")
+print(twin_beds)
+
+removed_item = inventory.pop(4)
+print(removed_item)
+
+inventory.insert(10,"19th Century Bed Frame")
+print(inventory)
+
+inventory.sort()
+print(inventory)
+
+OUTPUT
+----------
+19
+twin bed
+pillow
+['headboard', 'queen bed', 'king bed', 'dresser']
+['twin bed', 'twin bed', 'headboard']
+4
+king bed
+['twin bed', 'twin bed', 'headboard', 'queen bed', 'dresser', 'dresser', 'table', 'table', 'nightstand', 'nightstand', '19th Century Bed Frame', 'king bed', 'king bed', 'twin bed', 'twin bed', 'sheets', 'sheets', 'pillow', 'pillow']
+['19th Century Bed Frame', 'dresser', 'dresser', 'headboard', 'king bed', 'king bed', 'nightstand', 'nightstand', 'pillow', 'pillow', 'queen bed', 'sheets', 'sheets', 'table', 'table', 'twin bed', 'twin bed', 'twin bed', 'twin bed']
+
+
+# Your code below:
+toppings =["pepperoni",
+"pineapple",
+"cheese",
+"sausage",
+"olives",
+"anchovies",
+"mushrooms"]
+
+print(toppings)
+
+prices =[2,6,1,3,2,7,2]
+print(prices)
+
+num_two_dollar_slices =prices.count(2)
+print(num_two_dollar_slices)
+
+num_pizzas = len(toppings)
+print(num_pizzas)
+
+print("We sell", num_pizzas,"different kinds of pizza!")
+
+pizza_and_prices =[[prices[0],toppings[0]],
+[prices[1],toppings[1]],
+[prices[2],toppings[2]],
+[prices[3],toppings[3]],
+[prices[4],toppings[4]],
+[prices[5],toppings[5]],
+[prices[6],toppings[6]]]
+
+print(pizza_and_prices)
+
+pizza_and_prices.sort()
+print(pizza_and_prices )
+
+cheapest_pizza = pizza_and_prices[0]
+print(cheapest_pizza)
+
+priciest_pizza =pizza_and_prices[-1]
+print(priciest_pizza)
+
+pizza_and_prices.pop()
+print(pizza_and_prices)
+
+pizza_and_prices.append([2.5, "peppers"])
+pizza_and_prices.sort()
+print(pizza_and_prices)
+
+three_cheapest =pizza_and_prices[0:3]
+print(three_cheapest)
+
+OUTPUT
+----------
+['pepperoni', 'pineapple', 'cheese', 'sausage', 'olives', 'anchovies', 'mushrooms']
+[2, 6, 1, 3, 2, 7, 2]
+3
+7
+We sell 7 different kinds of pizza!
+[[2, 'pepperoni'], [6, 'pineapple'], [1, 'cheese'], [3, 'sausage'], [2, 'olives'], [7, 'anchovies'], [2, 'mushrooms']]
+[[1, 'cheese'], [2, 'mushrooms'], [2, 'olives'], [2, 'pepperoni'], [3, 'sausage'], [6, 'pineapple'], [7, 'anchovies']]
+[1, 'cheese']
+[7, 'anchovies']
+[[1, 'cheese'], [2, 'mushrooms'], [2, 'olives'], [2, 'pepperoni'], [3, 'sausage'], [6, 'pineapple']]
+[[1, 'cheese'], [2, 'mushrooms'], [2, 'olives'], [2, 'pepperoni'], [2.5, 'peppers'], [3, 'sausage'], [6, 'pineapple']]
+[[1, 'cheese'], [2, 'mushrooms'], [2, 'olives']]
+
+owners = ["Jenny", "Alexus", "Sam", "Grace"]
+dogs_names = ["Elphonse", "Dr. Doggy DDS", "Carter", "Ralph"]
+
+names_and_dogs_names  = zip(owners, dogs_names)
+
+list_of_names_and_dogs_names =list(names_and_dogs_names)
+print(list_of_names_and_dogs_names)
+
+OUTPUT
+----------
+[('Jenny', 'Elphonse'), ('Alexus', 'Dr. Doggy DDS'), ('Sam', 'Carter'), ('Grace', 'Ralph')]
+
+
+
